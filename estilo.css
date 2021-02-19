@@ -1,0 +1,47 @@
+﻿body{
+	font-family:Tahoma;
+}
+
+ul{
+	list-style:none;
+    display: flex;
+}
+
+ul label{
+	float:left;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+table {
+  text-align: center;
+}
+
+
+#back {
+  display: flex;
+}
+
+#lef-panel {
+    width: 400px;
+    margin: 40px;
+}
+
+#right-panel {
+    width: 800px;
+    margin-top: 33px;
+    margin-left: 78px;
+}
+
+.td_fig {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-control {
+    width: 250px;
+}

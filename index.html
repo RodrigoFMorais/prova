@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="funcoes.js"></script>
+	<link rel="stylesheet" href="estilo.css" type="text/css"/>
+</head>
+<body>
+
+        <img src="admin.png" alt=”Logo” width="1511" height="201" >
+
+
+	<div id="back">
+
+		<div id="lef-panel">
+            		<div class="btn btn-primary btn-block" id="btAAdm" class="btLeft">Acessos Administrativos</div>
+                        <div class="btn btn-primary btn-block" id="btSer" class="btLeft">Servi&ccedilos</div>
+                        <div class="btn btn-primary btn-block" id="btFCon" class="btLeft">Fale Conosco</div>
+                        <div class="btn btn-primary btn-block" id="btRep" class="btLeft">Reporte</div>
+                        <div class="btn btn-primary btn-block" id="btPSat" class="btLeft">Pesquisa de Satisfa&ccedil&atildeo</div>
+                        <div class="btn btn-primary btn-block" id="btPred" class="btLeft">Pr&eacutedios</div>
+                        <div class="btn btn-primary btn-block" id="btLdT" class="btLeft">Locais de Trabalho</div>
+		</div>
+
+	
+		<div id="right-panel">
+
+			<h1 id="Title" style="font-style: italic;font-family: sans-serif;">Locais de Trabalho</h1>
+
+			<form  id="frmCadastro">
+            <div style="display: flex;place-content: space-between;">
+					<div>
+						<label for="txtFuncionario">Funcion&aacuterio</label>
+						<input class="form-control" type="text" id="txtFuncionario"/>
+					</div>
+					<div>
+						<label for="txtPredio">Pr&eacutedio</label>
+						<select class="form-control" type="text" id="txtPredio">
+                    				<option value="Predio 1">Pr&eacutedio 1</option>
+                    				<option value="Predio 2">Pr&eacutedio 2</option>
+                    				<option value="Predio 3">Pr&eacutedio 3</option>
+                    				<option value="Predio 4">Pr&eacutedio 4</option>
+						</select>
+					</div>
+					<div>
+						<label for="txtLocalDeTrabalho">Local de Trabalho</label>
+						<input class="form-control" type="text" id="txtLocalDeTrabalho"/>
+					</div>
+					<div >
+						<input type="image" src='add.png' alt="Submit" id="btnSalvar" style="margin-top: 36px;"/>
+					</div>
+               </div>
+			</form>
+
+			<table class="table table-bordered" id="tblListar">
+
+			</table>
+
+		</div>
+</body>
+</html>
